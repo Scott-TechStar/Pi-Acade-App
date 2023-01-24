@@ -25,7 +25,7 @@ export default function ProductCard(props: Props) {
 
       <div style={{textAlign: 'center', marginBottom: 8}}>
         <strong>{props.price} Test-π</strong> <br />
-        <button onClick={props.onClickBuy}>Order</button>
+        <button onClick={props.onClickBuy} style={{ borderRadius: "30px", backgroundColor: 'lightblue' }}>Order</button>
       </div>
 
       <span style={{fontSize: '0.6em'}}>{props.pictureCaption}</span>

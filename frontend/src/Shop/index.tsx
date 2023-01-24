@@ -3,6 +3,7 @@ import axios from 'axios';
 import ProductCard from './components/ProductCard';
 import SignIn from './components/SignIn';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 type MyPaymentMetadata = {};
 
@@ -126,26 +127,32 @@ export default function Shop() {
 
   return (
     <>
-      <Header user={user} onSignIn={signIn} onSignOut={signOut}/>
+      <Header user={user} onSignIn={signIn} onSignOut={signOut} onClickSearch={function (): void {
+        throw new Error('Function not implemented.');
+      } }/>
+
 
       <ProductCard
-        name="Apple Pie"
-        description="You know what this is. Pie. Apples. Apple pie."
+        name="Research Papers"
+        description="Get access to Latest Academic papers"
         price={3}
-        pictureURL="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Apple_pie.jpg/1280px-Apple_pie.jpg"
+        pictureURL="/images/papers.jpeg"
         pictureCaption="Picture by Dan Parsons - https://www.flickr.com/photos/dan90266/42759561/, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=323125"
         onClickBuy={() => orderProduct("Order Apple Pie", 3, { productId: 'apple_pie_1' })}
       />
       <ProductCard
-        name="Lemon Meringue Pie"
-        description="Non-contractual picture. We might have used oranges because we had no lemons. Order at your own risk."
+        name="Questions and Answers"
+        description="Eccess Expert solution to your Academic Assignments"
         price={5}
-        pictureURL="https://live.staticflickr.com/1156/5134246283_f2686ff8a8_b.jpg"
+        pictureURL="/images/Q&A.jpg"
         pictureCaption="Picture by Sistak - https://www.flickr.com/photos/94801434@N00/5134246283, CC BY-SA 2.0"
         onClickBuy={() => orderProduct("Order Lemon Meringue Pie", 5, { productId: 'lemon_pie_1' })}
       />
 
+      
       { showModal && <SignIn onSignIn={signIn} onModalClose={onModalClose} /> }
+
+      <Footer user={user} onAccount={signIn} onProfile={signOut} />
     </>
   );
 }

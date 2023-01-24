@@ -103,6 +103,6 @@ app.listen(8000, async () => {
     console.error('Connection to MongoDB failed: ', err)
   }
 
-  console.log('App platform demo app - Backend listening on port 8000!');
+  console.log('Acade app - Backend listening on port 8000!');
   console.log(`CORS config: configured to respond to a frontend hosted on ${env.frontend_url}`);
 });
