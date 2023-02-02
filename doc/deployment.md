@@ -1,4 +1,4 @@
-# Pi Platform Demo app: Deployment Guide
+# Pi Platform Acade app: Deployment Guide
 
 **Warning: The purpose of this project is to be simple to run, with very few configuration steps. There is no**
 **intent to make it 100% secure, infinitely scalable, or suitable for a live production app handling**
