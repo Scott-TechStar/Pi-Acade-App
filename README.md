@@ -1,6 +1,4 @@
-<img title="Register An App" alt="Registration Form for an App" src="logo192.png" style="width:300px;height:600px;" />
-
-# Acade App
+<img title="Acade App" alt="Acade App" src="./frontend/public/logo192.png" style="width:300px;height:600px;" />
 
 It aims to show you how to use Pi Platform API on the backend side and Pi SDK on the frontend side of your app.
 
