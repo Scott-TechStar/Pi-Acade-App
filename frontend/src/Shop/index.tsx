@@ -137,64 +137,64 @@ export default function Shop() {
         description="Get access to Latest Academic papers"
         price={3}
         pictureURL="/images/papers.jpeg"
-        pictureCaption="Picture by Dan Parsons - https://www.flickr.com/photos/dan90266/42759561/, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=323125"
-        onClickBuy={() => orderProduct("Order Apple Pie", 3, { productId: 'apple_pie_1' })}
+        pictureCaption="Picture by Acade Academy- https://acadeapp.com"
+        onClickBuy={() => orderProduct("Research paper", 3, { productId: 'r_paper_1' })}
       />
       <ProductCard
         name="Questions and Answers"
         description="Eccess Expert solution to your Academic Assignments"
         price={5}
         pictureURL="/images/Q&A.jpg"
-        pictureCaption="Picture by Sistak - https://www.flickr.com/photos/94801434@N00/5134246283, CC BY-SA 2.0"
-        onClickBuy={() => orderProduct("Order Lemon Meringue Pie", 5, { productId: 'lemon_pie_1' })}
+        pictureCaption="Picture by Acade Academy- https://acadeapp.com"
+        onClickBuy={() => orderProduct("Question with Solutions", 5, { productId: 'solution_1' })}
       />
        <ProductCard
         name="Research Papers"
         description="Get access to Latest Academic papers"
         price={3}
         pictureURL="/images/papers.jpeg"
-        pictureCaption="Picture by Dan Parsons - https://www.flickr.com/photos/dan90266/42759561/, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=323125"
-        onClickBuy={() => orderProduct("Order Apple Pie", 3, { productId: 'apple_pie_1' })}
+        pictureCaption="Picture by Acade Academy- https://acadeapp.com"
+        onClickBuy={() => orderProduct("Research paper", 3, { productId: 'r_paper_2' })}
       />
       <ProductCard
         name="Questions and Answers"
         description="Eccess Expert solution to your Academic Assignments"
         price={5}
         pictureURL="/images/Q&A.jpg"
-        pictureCaption="Picture by Sistak - https://www.flickr.com/photos/94801434@N00/5134246283, CC BY-SA 2.0"
-        onClickBuy={() => orderProduct("Order Lemon Meringue Pie", 5, { productId: 'lemon_pie_1' })}
+        pictureCaption="Picture by Acade Academy- https://acadeapp.com"
+        onClickBuy={() => orderProduct("Question with Solutions", 5, { productId: 'solution_2' })}
       />
        <ProductCard
         name="Research Papers"
         description="Get access to Latest Academic papers"
         price={3}
         pictureURL="/images/papers.jpeg"
-        pictureCaption="Picture by Dan Parsons - https://www.flickr.com/photos/dan90266/42759561/, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=323125"
-        onClickBuy={() => orderProduct("Order Apple Pie", 3, { productId: 'apple_pie_1' })}
+        pictureCaption="Picture by Acade Academy- https://acadeapp.com"
+        onClickBuy={() => orderProduct("Research paper", 3, { productId: 'r_paper_3' })}
       />
       <ProductCard
         name="Questions and Answers"
         description="Eccess Expert solution to your Academic Assignments"
         price={5}
         pictureURL="/images/Q&A.jpg"
-        pictureCaption="Picture by Sistak - https://www.flickr.com/photos/94801434@N00/5134246283, CC BY-SA 2.0"
-        onClickBuy={() => orderProduct("Order Lemon Meringue Pie", 5, { productId: 'lemon_pie_1' })}
+        pictureCaption="Picture by Acade Academy- https://acadeapp.com"
+        onClickBuy={() => orderProduct("Question with Solutions", 5, { productId: 'solution_3' })}
       />
        <ProductCard
         name="Research Papers"
         description="Get access to Latest Academic papers"
         price={3}
         pictureURL="/images/papers.jpeg"
-        pictureCaption="Picture by Dan Parsons - https://www.flickr.com/photos/dan90266/42759561/, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=323125"
-        onClickBuy={() => orderProduct("Order Apple Pie", 3, { productId: 'apple_pie_1' })}
+        pictureCaption="Picture by Acade Academy- https://acadeapp.com"
+        onClickBuy={() => orderProduct("Research paper", 3, { productId: 'r_paper_4' })}
       />
       <ProductCard
         name="Questions and Answers"
         description="Eccess Expert solution to your Academic Assignments"
         price={5}
         pictureURL="/images/Q&A.jpg"
-        pictureCaption="Picture by Sistak - https://www.flickr.com/photos/94801434@N00/5134246283, CC BY-SA 2.0"
-        onClickBuy={() => orderProduct("Order Lemon Meringue Pie", 5, { productId: 'lemon_pie_1' })}
+        pictureCaption="Picture by Acade Academy- https://acadeapp.com"
+        onClickBuy={() => orderProduct("Question with Solutions", 5, { productId: 'solution_4' })}
       />
 
       

@@ -22,12 +22,12 @@ const headerStyle: CSSProperties = {
 export default function Header(props: Props) {
   return (
     <header style={headerStyle}>
-      <div style={{ fontWeight: "bold",color: "red" }} ><a href="/">Acade</a></div>
+      <div style={{ fontWeight: "bold",color: "red" }} ><a href="/"><img src="/logo192.png" style={{width: "40px", height:"40px"}} alt="logo" /></a></div>
      
-      <div style={{ fontWeight: "bold",color: "red" }}>
+      <div style={{ fontWeight: "bold",color: "red", paddingLeft:"20px", }}>
         <input style={{width: "50%"}} type='search' placeholder='Search For Solutions' aria-label='Search' >
         </input>
-         <button onClick={props.onClickSearch} style={{ borderRadius: "30px", backgroundColor: 'lightblue' }}>
+         <button onClick={props.onClickSearch} style={{ borderRadius: "30px",backgroundColor: 'lightblue' }}>
            Search
            </button>
       </div>

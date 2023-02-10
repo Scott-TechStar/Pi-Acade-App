@@ -18,7 +18,7 @@ export default function ProductCard(props: Props) {
     <div style={{ margin: 16, paddingBottom: 16, borderBottom: '1px solid gray' }}>
       <div style={{ display: 'flex', flexDirection: 'row' }}>
         <div style={{ width: "33%", marginRight: 8 }}>
-          <a href='#' ><img style={{ width: "100%" }} src={props.pictureURL} alt={props.name} /></a>
+          <a href='/'  ><img style={{ width: "100%" }} src={props.pictureURL} alt={props.name} /></a>
         </div>
         <div style={{ width: "66%" }}>
             <h3>{props.name}</h3>
