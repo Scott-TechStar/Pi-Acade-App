@@ -28,3 +28,28 @@ Read [`doc/deployment.md`](./doc/deployment.md) to learn how to deploy this app 
 
 To dive into the implementation of the flows that support the app features, please refer to
 [Acade App Flows](./FLOWS.md).
+
+
+## Test the App
+
+To to test the app, run the following commands;
+Start the Frontend
+```  sh
+     npm install
+     cd frontend
+     yarn start
+```
+
+Start the Backend
+```  sh
+     npm install 
+     cd backend
+     yarn start
+```
+
+## Demo Images
+<img title="Demo1" alt="Acade App" src="./frontend/public/demo1.png" /> <img title="Demo2" alt="Acade App" src="./frontend/public/demo2.png" />
+
+
+
+
