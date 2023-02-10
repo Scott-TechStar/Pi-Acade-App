@@ -48,7 +48,7 @@ Start the Backend
 ```
 
 ## Demo Images
-<img title="Demo1" alt="Acade App" src="./frontend/public/demo1.png" /> <img title="Demo2" alt="Acade App" src="./frontend/public/demo2.png" />
+<img title="Demo1" alt="Acade App" src="./frontend/public/demo1.png" style="width:150px;height:200px;"  /> <img title="Demo2" alt="Acade App" src="./frontend/public/demo2.png" style="width:150px;height:200px;"  />
 
 
 
